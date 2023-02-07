@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Cormorant+Garamond&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: ghostwhite;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow+Condensed:ital';
+}
+
+.container {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    box-shadow: 0 4px 40px rgb(40, 40, 40, 0.2);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    width: 518px;
+    background: rgba(35, 35, 35, 0.3);
+    border-radius: 30px;
+}
+
+.container .input-grp {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.text h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.text h1, span {
+    font-size: 3rem;
+}
+
+.input-grp input {
+    width: 50%;
+    height: 50px;
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    outline-color: rgb(255, 181, 45);
+    box-shadow: 0 4px 40px rgba(255, 255, 255, 0.3);
+  
+}
+
+.input-grp input:hover {
+    outline: 2px solid rgb(255, 181, 45);
+}
+
+.input-grp input::placeholder {
+    font-size: 1.2rem;
+
+}
+
+.input-grp button {
+    width: 65px;
+    padding: 12px;
+    font-size: 1.5rem;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 5px;
+    box-shadow: 0 4px 40px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.input-grp button:hover {
+    background: rgb(255, 181, 45);
+}
+
+.container .lists {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.lists ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    row-gap: 10px;
+}
+
+.lists ul li {
+    font-family: cursive;
+    /*backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);*/
+   width: 375px;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   background-color: none;
+   /*box-shadow: 0 4px 40px rgba(255, 255, 255, 0.4);
+   border-radius: 30px;*/
+   border: none;
+   border-bottom: 1px solid darkgray;
+   align-items: center;
+   font-size: 2rem;
+}
+
+.lists ul li span {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.lists ul li button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    color: currentColor;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.lists ul li button:hover {
+    background:rgb(255, 181, 45);
+}
